@@ -1,0 +1,14 @@
+name: GameruleGetter
+main: mx.x10.aschim.code.bukkit.gamerulegetter.GameruleGetter
+version: 1.0
+author: 727021
+website: http://code.aschim.x10.mx/bukkit/gamerulegetter
+commands:
+  gamerules:
+    aliases: [gr,grules,grs]
+    description: Gets the state of a gamerule
+    usage: /gamerules [gamerule]
+permissions:
+  gr.nocommand:
+    default: false
+    description: Prevents access to gamerule states
